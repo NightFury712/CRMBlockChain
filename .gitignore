@@ -1,0 +1,79 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/dist
+/tmp
+/out-tsc
+# Only exists if Bazel was run
+/bazel-out
+
+# dependencies
+CRMBug-FE/node_modules/
+
+# profiling files
+chrome-profiler-events*.json
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+CRMBug-FE/.vscode/*
+!CRMBug-FE/.vscode/settings.json
+!CRMBug-FE/.vscode/tasks.json
+!CRMBug-FE/.vscode/launch.json
+!CRMBug-FE/.vscode/extensions.json
+CRMBug-FE/.history/*
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+
+# System Files
+.DS_Store
+Thumbs.db
+
+/.vs
+*.pdb
+*.cache
+*.txt
+*.nuget
+*.csproj
+*.suo
+*.dll
+*.json
+*.razor.json
+*.dtbcache.v2
+*.runtimeconfig
+
+### DotnetCore ###
+*.cache
+*.dll
+*.exe
+*.pdb
+
+CRMBug-BE/ApplicationCore/obj/
+CRMBug-BE/ApplicationCore/bin/
+CRMBug-BE/BugTracking/obj/
+CRMBug-BE/BugTracking/bin/
+CRMBug-BE/Infarstructure/obj/
+CRMBug-BE/Infarstructure/bin/
+
+*node_modules
+
+*.vs/
+*bin/
+*obj/
+*.json
+
